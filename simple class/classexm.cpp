@@ -25,5 +25,9 @@ int main(void)
 	s1.insert(101, "Komal");
 	s2.insert(102, " Swamini");
 	
+	s1.display();
+	s2.display();
+	
+	
 	return 0;
 }
