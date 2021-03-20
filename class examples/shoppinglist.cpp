@@ -1,7 +1,8 @@
+/*program for processing shooping list*/
 #include<iostream>
 using namespace std;
 
-const int m = 50;
+const int m = 50;  //provides value for array size
 
 class ITEMS
 {
@@ -12,7 +13,7 @@ private:
 public:
 	void CNT(void)
 	{
-		count=0;
+		count=0;    //to initializes counter to 0
 	}
 	void getitem(void);
 	void displaySum(void);
