@@ -1,3 +1,4 @@
+/*Program to calculate the additon or Subtraction of comples number */
 #include <iostream>
 using namespace std;
 
@@ -7,7 +8,7 @@ class complexNum
 	    public:
 	        void getData();
 	        void putData();
-	        void addition(complexNum,complexNum);
+	        void addition(complexNum,complexNum);    //Object as function argument
 	        void subtraction(complexNum, complexNum);
 
 	};
@@ -67,10 +68,6 @@ int main() {
 			break;
 		default:cout<<"\n Invalid Input:";
 	}
-	/*a.addition(ob1,ob2);
-	s.subtraction(ob1,ob2);
 	
-	cout << "\naddition is :";
-	a.putData();*/
 	return 0;
 }
