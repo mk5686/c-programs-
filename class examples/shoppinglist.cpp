@@ -1,4 +1,5 @@
 /*program for processing shooping list*/
+
 #include<iostream>
 using namespace std;
 
@@ -66,7 +67,8 @@ int main()
 	order .CNT();
 	int x;
 	do 
-	{
+	{												//do ...while loop
+		
 		cout <<"\n You can do the following :";
 		cout <<"\n Enter the appropriate choice :";
 
