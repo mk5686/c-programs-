@@ -1,4 +1,4 @@
-/*Program to calculate the additon or Subtraction of comples number */
+/*Program to calculate the additon or Subtraction of complex number */
 #include <iostream>
 using namespace std;
 
